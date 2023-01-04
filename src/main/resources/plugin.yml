@@ -1,0 +1,11 @@
+name: Backdoor-Detector
+version: '${version}'
+main: net.chargonium.backdoordetector.BackdoorDetector
+api-version: 1.19
+authors: [ Chargonium ]
+description: Using this you can detect if someone is using a backdoor
+commands:
+  test-shutdown:
+    description: Shuts the backdoor-detector plugin down
+    usage: /test-shutdown
+    permission: Backdoor-Detector.shutdown-plugin
